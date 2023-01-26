@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="fundo">
+        <form class="principal">
+            <h1 class="login">Login</h1>
+
+            <section class="formulario__item">
+                <label for="email" class="titulo-formulario">Seu e-mail</label>
+                <input
+                    type="email"
+                    class="input-padrao"
+                    required
+                    placeholder="contato@gmail.com"
+                />
+                <label for="senha" class="titulo-formulario">Sua senha</label>
+                <input type="text" class="input-padrao" required placeholder="1234" />
+            </section>
+            <fieldset>
+                <label for="continuar-logado" class="botao"
+                    ><input type="checkbox" class="caixa" />Manter-me logado</label
+                >
+            </fieldset>
+            <input type="submit" value="Login" class="enviar" />
+            <div class="secao">
+                <p class="texto">
+                    Ainda não tem conta? <a href="#" class="link">Cadastre-se</a>
+                </p>
+            </div>
+        </form>
+    </body>
+</html>
